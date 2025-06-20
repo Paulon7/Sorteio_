@@ -33,7 +33,7 @@ function sortTeams() {
     let team3 = [];
     let remainingPlayers = [...players];
 
-    const forcePlayers = ['Paulo', 'Rhuan', 'P.A', 'Iury', 'Paulão', 'Ryan', 'Piaui'];
+    const forcePlayers = ['P.A', 'Iury', 'Ryan', 'Piaui'];
 
     // Escolher um time aleatório para os jogadores forçados (1, 2 com 90% de chance; 3 com 10%)
     let forcedTeamNumber = Math.random() < 0.1 ? 3 : (Math.random() < 0.5 ? 1 : 2);
